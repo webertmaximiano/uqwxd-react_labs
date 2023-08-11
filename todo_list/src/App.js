@@ -28,7 +28,7 @@ const App = () => {
 
     const newTodo = {
       id: new Date().getTime(),
-      text: todo.trim(),
+      text: todo.trim(), // remove espacos em brancos
       completed: false,
     };
     if (newTodo.text.length > 0 ) {
